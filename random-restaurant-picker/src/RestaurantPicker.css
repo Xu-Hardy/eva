@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f9fc;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.App-logo {
+    margin: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #a5a5a5;
+    cursor: not-allowed;
+}
+
+.restaurant-name {
+    font-size: 2rem;
+    margin-top: 30px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.restaurant-name.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+

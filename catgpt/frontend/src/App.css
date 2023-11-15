@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.chatWindow {
+  width: 400px;
+  height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatHistory {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.chatMessage {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.user {
+  background-color: #d1ffd6;
+  align-self: flex-end;
+}
+
+.bot {
+  background-color: #fff3d1;
+}
+
+.chatControls {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.chatControls input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.chatControls button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
