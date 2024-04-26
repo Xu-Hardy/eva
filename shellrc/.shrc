@@ -1,0 +1,17 @@
+## sys tools
+alias lg="lazygit"
+alias ld="lazydocker"
+alias cat="bat"
+alias df="duf"
+
+## about nodejs
+alias nr="npm run"
+alias nrb="npm run build"
+alias nrd="npm run dev"
+alias nrs="npm run serve"
+alias ni="npm install"
+alias nid="npm install -D"
+
+alias yb="yarn build"
+alias yd="yarn dev"
+alias ys="npm run serve"
